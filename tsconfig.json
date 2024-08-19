@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "sourceMap": false,
+    "rootDir": ".",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": false,
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "outDir": "./dist"
+  },
+  "include": ["src/**/**.ts", "tests/**/**.ts"],
+  "exclude": ["node_modules"]
+}
